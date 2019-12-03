@@ -8,9 +8,9 @@ public class Log4J {
     private Logger logger;
     private String msg;
 
-    void doStnk(){
+    void doStnk() {
         msg = "Logger";
-         logger.getLogger("Log4J").log(Level.INFO,msg);
+        logger.getLogger("Log4J").log(Level.INFO, msg);
     }
 
 }

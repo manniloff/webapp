@@ -38,9 +38,9 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
 
-        final AsyncContext context = req.startAsync();
-        context.addListener(new HttpAsyncListener());
-        context.setTimeout(3000);
+//        final AsyncContext context = req.startAsync();
+//        context.addListener(new HttpAsyncListener());
+//        context.setTimeout(3000);
 
 
         final String sleep = req.getParameter("sleep");
@@ -55,7 +55,7 @@ public class HelloServlet extends HttpServlet {
                 }
                 System.out.println("doGet2 " + sleep);
 
-                context.complete();
+ //               context.complete();
                 try {
                     resp.getWriter().println(sleep);
                 } catch (IOException e) {

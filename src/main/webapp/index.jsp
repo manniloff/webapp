@@ -3,6 +3,11 @@
         <h2>
             Hello World!
         </h2>
-        <a href="servlet">Click here to see servlet</a>
+       <p>
+       <a href="servlet">Click here to see servlet</a>
+       </p>
+       <p>
+       <a href="filterservlet">Click here to see filter servlet</a>
+       </p>
     </body>
 </html>

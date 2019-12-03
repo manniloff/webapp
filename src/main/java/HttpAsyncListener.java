@@ -1,4 +1,3 @@
-import javax.resource.spi.work.ExecutionContext;
 import javax.servlet.AsyncEvent;
 import javax.servlet.AsyncListener;
 import java.io.IOException;
