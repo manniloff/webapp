@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3893f6-8ba2-48be-8392-b716c74991e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testbranch2/testbranch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testbranch1/testbranch1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +19,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filter/CheckFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/collections/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,17 +49,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testbranch1/testbranch1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testbranch2/testbranch2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testbranch1/testbranch1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
@@ -135,7 +140,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testbranch1" />
+        <entry key="$PROJECT_DIR$" value="feature/filters" />
       </map>
     </option>
   </component>
@@ -222,7 +227,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testbranch2" type="462c0819:PsiDirectoryNode" />
+              <item name="testbranch1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
@@ -345,14 +350,7 @@
       <option name="project" value="LOCAL" />
       <updated>1575402973836</updated>
     </task>
-    <task id="LOCAL-00005" summary="Test branch 1">
-      <created>1575791258938</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1575791258938</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -457,8 +455,7 @@
     <MESSAGE value="commit servlet project" />
     <MESSAGE value="commit servlet project at develop branch" />
     <MESSAGE value="Add new logger class" />
-    <MESSAGE value="Test branch 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test branch 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new logger class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/servlet/AsyncContext.class">
@@ -649,13 +646,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testbranch1/testbranch1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testbranch2/testbranch2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
