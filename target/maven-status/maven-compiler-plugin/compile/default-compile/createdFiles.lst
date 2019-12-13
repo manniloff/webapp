@@ -1,8 +1,0 @@
-filter\TestLog.class
-FilterServlet.class
-SecondBranch.class
-HelloServlet.class
-loggers\Log4J.class
-HelloServlet$1.class
-filter\CheckFilter.class
-HttpAsyncListener.class

@@ -6,8 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webapp" />
+        <module name="userInterfaceService" />
+        <module name="smsManagerService" />
+        <module name="orderService" />
+        <module name="smsSenderService" />
+        <module name="userService" />
+        <module name="paymetnsService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="orderService" target="1.7" />
+      <module name="paymetnsService" target="1.7" />
+      <module name="smsManagerService" target="1.7" />
+      <module name="smsSenderService" target="1.7" />
+      <module name="userInterfaceService" target="1.7" />
+      <module name="userService" target="1.7" />
+      <module name="webapp" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="orderService" options="-parameters" />
+      <module name="paymetnsService" options="-parameters" />
+      <module name="smsManagerService" options="-parameters" />
+      <module name="smsSenderService" options="-parameters" />
+      <module name="userInterfaceService" options="-parameters" />
+      <module name="userService" options="-parameters" />
+    </option>
   </component>
 </project>
